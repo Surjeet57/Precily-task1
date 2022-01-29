@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Task 1</title>
+
+	<style>                                           /* CSS for the project*/
+		.box-wrapper {
+      box-sizing : border-box;
+    }
+		#box1 {
+      resize :both;                            /*can resize both the height and width of a <div>*/
+      overflow:auto;                            /*The overflow property specifies what should happen if content overflows an element's box*/
+      float: left;                              /*The float property specifies whether an element should float to the left, right, or not at all.*/
+      width: 33.33%;                         /* three boxes (use 25% for four,50% for two,and 33.33 for three, etc) */
+      padding: 5px;                         /* if you want space between the images */
+      margin: 3px;
+			flex-grow: 4;
+			border: solid 1px orange;
+		}
+    #box2 {
+      resize :both;                          /*can resize both the height and width of a <div>*/
+      overflow:auto;                         /*The overflow property specifies what should happen if content overflows an element's box*/
+      float: both;                           /*The float property specifies whether an element should float to the left, right, or not at all.*/
+      text-align: center;
+      min-width :400px;
+      height:325px;
+      width: 33.33%;                      /* three boxes (use 25% for four, and 50% for two, etc) */
+      padding: 5px;                       /* if you want space between the images */
+      margin: 3px;
+      flex-grow: 4;
+      border: solid 1px orange;
+    }
+    #box3 {
+      resize :both;                         /*can resize both the height and width of a <div>*/
+      overflow:auto;                         /*The overflow property specifies what should happen if content overflows an element's box*/
+      float: left;                            /*The float property specifies whether an element should float to the left, right, or not at all.*/
+      min-width :400px;
+      text-align: center;                    /* TO MAKE THE CONTENT IN CENTER*/
+      width: 50% ;                           /* three boxes (use 25% for four, and 50% for two, etc) */
+      padding: 5px;                           /* if you want space between the images */
+      margin: 3px;
+      flex-grow: 4;
+      border: solid 1px orange;
+    }
+    .center p {
+     line-height : 1.5;
+     display : inline-block;                  /* use for display: inline-block is to display list items horizontally instead of vertically*/
+     vertical-align: middle;
+}
+    .center {
+      display : block;
+     margin-left: auto;
+     margin-right: auto;
+    width : 50%;
+}
+
+
+	</style>
+</head>
+
+<body>
+	<div class="box-wrapper">
+			<div id="box1">
+        <b>Nature picture</b>
+        <img src="surjeet.jpg" alt="Nature Story" width="500" height="300" class="center">
+			</div>
+				<div id="box2">
+					<b>Nature Quote</b>
+          <p><b>We don’t inherit the earth from our ancestors, we borrow it from our children</b></p>
+				</div>
+				<div id="box3">
+					<b>Nature Story</b>
+          <p><b>One day, a boy was playing in a garden. He was running after butterflies and trying to catch them. He was very happy to see the colourful flowers.
+
+                Then he saw a frog skipping and jumping. As he ran behind the frog, it jumped into the pond.
+
+                A cow was also grazing in the garden. He saw how the cow was chewing grass. A fly then came there and buzzed over the cow. The cow swung her tail to make the fly move away. The child clapped and laughed.
+
+                boy learn lesson from natureThe boy was enjoying the beauty of nature. He said, "Nature is wonderful. Its beauty attracts everyone."
+
+                When he saw a squirrel he ran after it and reached near the bed of roses. He tried to pluck some of the roses, but a thorn pierced his finger. It was very painful. The boy started crying and ran to his house.
+
+                His mother asked him, "What is the matter? Why are you crying?" The boy said, "The thorn of the rose pierced my finger while I was plucking it and now I feel severe pain."
+
+                His mother said, "It is your mistake. You should not have tried to pluck the flower. The flowers are meant to be seen and not to be plucked. Besides, natural beauty should never be harmed. One should not interfere with the natural processes. Instead, we should help to maintain the nature."
+
+                The son said, "I will always follow what you have just told, mama."
+
+                The Mother said, "Let me know what you have learnt today." Her son explained, "We should protect all living beings, whether animals or plants. We should never harm them. Unnecessary interference with nature is harmful. It may harm the human beings in the long run."</b></p>
+				</div>
+			</div>
+</body>
+
+</html>
